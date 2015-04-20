@@ -142,7 +142,8 @@ git clone https://github.com/aaronfrost/es6-workshop
     function myFunction({name='dan', age=30, favoriteBand=false}={}){
 
 - everything is optional
-
+- object literal with arrow functions
+- object literal with functions
 
 
 
