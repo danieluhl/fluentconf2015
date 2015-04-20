@@ -145,6 +145,96 @@ git clone https://github.com/aaronfrost/es6-workshop
 - object literal with arrow functions
 - object literal with functions
 
+### Classes
+
+- new syntax
+- no commas
+- more portable code (common inheritance api)
+- tooling (ides, type checkers, etc)
+- immutable objects (your own primitaves)
+- traits (similar to mixins)
+- subclassing built-ins (validation)
+- help newcomers learn the language
+
+- Template literals
+
+    let str = `this is
+    a text with
+    multiple lines`;
+
+- lnrs:
+
+    foo`Hello ${first}`
+    // shorthand for
+    foo(['Hello', ' '], first);
+
+- web templates are data
+- template literals are code (multi string literals plus interpolation)
+- tagged templates are code (function calls)
+- XRegExp library
+
+- JSX as part of the language via tagged templates
+- Maps
+- sweet object keys
+
+### weak maps WeakMap()
+
+- weak maps - construct for private data
+- the key is not prevented from gc
+- weak maps have values removed when references are lost like normal gc works
+- use pattern where instead of a local closure you use a weak map for a single piece of
+data used by a object
+
+### Iterators and Generators
+
+iteratable
+- Arrays, strings, maps, sets, arguments, dom data structures (not plain objects)
+
+iterating constructs
+- Destructuring, for-of, array.from, spread, constructor of maps, promise.all, yield
+
+for-of is a better for loop (replaces array.foreach)
+
+### Set
+
+slideshare.net/jpamental
+github.com/jpamental
+
+
+# React (es6 react best practices)
+
+- Brian Holt @holtbt
+- react - you can use it with backbone, but don't
+- reacts greatest contribution is one way data flow
+- state is the enemy o fthe maintainable app
+- use props as much as you can (props are immutable)
+- drilling holes (pass the child a callback on the parent)
+
+### dealing with data in react
+
+- it's up to you
+- it's hard to play with angular from outside angular
+- it's easy to have a react component on your backbone page
+- it's easy to get away from react?
+
+#### mini cart example
+
+- communicating between components
+- event bus
+- don't try to sync state (it's impossible)
+- you need a single source of truth
+- flux is overkill for anything but a giant app
+
+### react with js6
+
+- babel has jsx built-in
+- using koa instead of express for generators in our middle layer
+- jest is on jasmine 1.3 - mocha uses jasmine 2.x
+
+
+
+
+
 
 
 
