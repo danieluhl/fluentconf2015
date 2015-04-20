@@ -77,6 +77,15 @@ Go playing at the same time, lolz
 ## Live Coding (because no internet)
 
 - jest (facebook)
+- pull this repo and give this talk for wf
+- random curlies will now make a difference
+
+jest.autoMockOff()
+xit()
+
+- destructuring an invalid value gives you undefined (not throw an error!)
+- we would want to statically check for this issue somehow^^
+-
 
 
 
