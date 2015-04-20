@@ -85,8 +85,63 @@ xit()
 
 - destructuring an invalid value gives you undefined (not throw an error!)
 - we would want to statically check for this issue somehow^^
--
 
+    let {coords:{lat, long}} = getAddresss(); // coords = undefined (only right side vars matter)
+
+- lhs can get crazy, use tricks to filter the values you want from your object rather than fighting the left hand side
+
+git clone https://github.com/aaronfrost/es6-workshop
+
+### Break
+
+### Back to the icy arctic that is the front row of salon 9
+
+- using my laptop for warmth
+- computed property keys
+- default parameter values
+
+    function func2(arg0, ...others) {
+        return others;
+    }
+
+- NEVER USE ARGUMENTS anymore (do we still need apply then?)
+- args with others is an array!
+- named parameters!
+- crockford looks like the god of javascript
+
+    foo({x: 2, y: 3});
+    function foo({y=1, x=0, z=0}) {
+        ...
+    }
+
+- Here the function destructures the object literal and uses default values when something is missing
+
+### Spread
+
+- Splits all elements in an array
+
+    Math.max(...[7, 8, 9]);
+
+### Arrow functions
+
+- parameter => function
+
+    arr.map(a => a * a);
+
+- arrow function "this" keyword works appropriately
+
+    button.addEventListener('click', () => {
+        this.handleClick(); //yup, this is what you would expect here
+    });
+
+- no more self=this!
+- multi param arrow functions (this, that) => {stmt1; stmt2;}
+
+- null bypasses default parameter values in functions
+
+    function myFunction({name='dan', age=30, favoriteBand=false}={}){
+
+- everything is optional
 
 
 
