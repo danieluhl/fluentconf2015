@@ -104,7 +104,51 @@ Why did the iojs fork happen?
 - grunt-devperf --save-dev
 - slides at ki.tt/fluent2015
 - data stored in JSON file
+- grunt-cssstats
+- elevator.js
+- https://t.co/k9NgWTwaqT
+- grunt-contrib-imagemin
+- grunt-svgmin
+- integrate webpagetest into our ci build
+- performance is everybody's problem
+- integrate it into the build, track over time
+- webpagetest monitor
+- grunt-wpt
+- trulia's setup - webpagetest-charts-api
+- grunt-shell
+- grunt-yslow
+- grunt-pagespeed
+- addyosmani/psi
+- sitespeed.io
+- setup your own WebPageTest server
+- private-instance
+- Kathy Sierra's (SeriousPony) talk on cognitive resources was awesome
+- http://seriouspony.com/
+
+
+
+## netflix
+
+- techblog.netflix.com
+- netflix.github.io
+- all the devices
+- consisent updateable UI everywhere
+- html5 UI was pretty good OSSCON 2011 (webkit-based)
+- DOM came with baggage (gasp)
+- JSCORE, renderer, systemsy stuffs
+- kinda like node.js with high perf rendering
+- puppy name zuzu?
+- MSLJS
+- global scope is not the issue, wide-scope is the issue
+- yay modules!! (but is it better than classes?)
+- procedural - no collections of procedures, just procedures (underscore vs modules)
 -
+
+
+
+
+
+
 
 
 
