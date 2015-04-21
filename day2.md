@@ -142,7 +142,8 @@ Why did the iojs fork happen?
 - global scope is not the issue, wide-scope is the issue
 - yay modules!! (but is it better than classes?)
 - procedural - no collections of procedures, just procedures (underscore vs modules)
--
+- internal npm for other teams to use
+- anyone in the company should be able to contribute to any part of the codebase
 
 
 
