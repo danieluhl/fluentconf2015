@@ -146,6 +146,17 @@ Why did the iojs fork happen?
 - anyone in the company should be able to contribute to any part of the codebase
 
 
+## building release pipelines
+
+- @ryanj
+- redhat
+- open web
+- SaaS solutions that support open standards
+- Publicly hosted!
+-
+
+
+
 
 
 
