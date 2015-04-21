@@ -230,8 +230,12 @@ github.com/jpamental
 - babel has jsx built-in
 - using koa instead of express for generators in our middle layer
 - jest is on jasmine 1.3 - mocha uses jasmine 2.x
+- always assume all of your data is already there (typically by props)
 
+- container layout paradigm - separate behavior from layout then just feed the layout into the behavior
 
+- container has all the logic, 2 layouts use the container (list, tile)
+- all react tags can be self closing
 
 
 
