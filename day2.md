@@ -96,6 +96,16 @@ Why did the iojs fork happen?
 - companies want clarity in intellectual property
 
 
+## Front-end performance automation
+
+- etsy is really fast
+- grunt, gulp to automate your junks
+- matchdep module to setup your stuffs
+- grunt-devperf --save-dev
+- slides at ki.tt/fluent2015
+- data stored in JSON file
+-
+
 
 
 
