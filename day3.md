@@ -45,6 +45,57 @@
 - but wait, if the image is really slow the inline script is wrong and the resource timing is correct
 - take the largest metric to get the right value
 - **design for performance by lara hogan book**
+- souders25 for 25% off velocity santa clara
+
+
+## Responsive design, design and dev
+
+- @divya (project manager adobe)
+- entire slide presentation in photoshop
+- flexible content
+- why is responsive better than user agent detection
+- users are on the internet more on phones than desktop
+- ux, devs, client all must be happy with the design
+- browser complexity makes things difficult
+
+### search for patterns and practices to do things better
+
+- workflow, tooling and problems
+- dissatisfaction with workflows
+    - increase collaboration
+- love for existing design tools
+    - lack of tools for collaboration
+- did not like tooling updates
+    - No time to learn new UI for efficient design
+- it's not east to collaborate between design and development
+- clients don't know what responsive design is
+- hard to keep pace with changing browser featureset
+- tedious to update designs for different devices
+
+### responsive design
+
+- define breakpoints
+- design for breakpoints (snap to grid in photoshop)
+- link smart objects
+    - new file that is updated in all usages when used
+- creative cloud extract for psd to html removes the language barrier
+
+### avoid tedious changes
+
+- html5please - what you can use and what's the fallback
+- use popular responsive frameworks - others have already battle tested these in all the browsers on all the devices
+
+### responsive vs adaptive
+
+- use data to find common viewports & use
+
+## algorithms for animations
+
+-
+
+
+
+
 
 
 
