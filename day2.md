@@ -153,7 +153,61 @@ Why did the iojs fork happen?
 - open web
 - SaaS solutions that support open standards
 - Publicly hosted!
--
+- containers - deploy anywhere, portability
+- the first issue with onboarding
+- old: git clone
+- mismatch between dev, staging and prod
+- containers and dockers
+- click to launch for onboarding contributors
+- get devs a dev, staging, live release chain ready to go
+- openshift.redhat
+- webbased openshift online interface for creating new apps
+- start people in a better place - from the CLI - new hosted environment
+- openshift free plan
+- heroku buttons
+- launch-shifter
+- openshift hub
+- web platform tools
+- hook into github issues
+- onboard contributors into your pipeline easily
+- write code that will run anywhere
+- "twelve-factor" app design
+- http://12factor.net/
+- setting up a server should be like tower defense, setup all your tools and let them handle the pipeline
+- TDD is dead?
+- npm install && npm test
+- Jenkins, TravisCI, hubot (and other bots)
+- bots prevent bad code and push notifications to the right dev/qa person
+- git push
+- webhooks
+- ssh (oldschool)
+- multiple deploy targets w/ git+ssh
+- builds - make the jenkins environment scalable
+- each push builds a new container so they can scale with jenkins
+- continuous integration, continuous deployment
+- DockerHub
+- Shippable
+- Docker Automated Builds
+- use CI for home automation
+- TravisCI
+- restifyjs-base
+- dockers automated builds
+- one git push goes to heroku, openshift, and docker all at once
+- github authentication plugin
+- github pull request builder
+- github plugin for status indicator
+- engineyard
+- mesosphere
+- marathon
+- flynn
+- heroku
+- openshift v2
+
+
+
+
+
+
 
 
 
