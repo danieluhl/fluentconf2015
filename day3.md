@@ -91,6 +91,45 @@
 
 ## algorithms for animations
 
+- simple formulas to activate your UI
+- @chemphill
+- courtney hemphill
+- carbon five
+- design v dev
+- motion in UI
+- animations are cognitive aids
+- affordance - implications of physics
+- loading icon, then scan through every image in the slider so user get's an initial preview and knows the content is there
+- pinterest auto-loading
+- playful nature gives trust and dissuades frustration
+- wrong password shake
+
+### navigation
+
+- show where something is using animations
+- where you came from, where you went, and how to get back
+
+### progressive disclosure
+
+- one thing at a time
+
+### context
+
+- pull to refresh (additional information without leaving current context)
+- HOW it slides in is almost never specified in a spec
+- when it comes to animation, wireframes just don't cut it
+
+### math of animations
+
+- you don't need jQuery or some huge library
+- interpolation > pixel pushing
+- a 0-1 number that you can mess with
+- torque drag spin friction are natural (easing)
+- ease in is jarring
+- ease out is a bit more natural
+- trig! sine curve is good
+- interpolation > 1 = follow through (elastic, bounce, more playful, don't push too far with users)
+- 12 principals of animation (by Disney)
 -
 
 
