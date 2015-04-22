@@ -4,6 +4,7 @@
 
 - steve Souders
 - @souders
+- speedcurve
 - bring devs and design together
 - obligatory venn diagram
 - designers should be sitting in the same area as the front-end team
@@ -28,7 +29,22 @@
     - start recorder
     - speed index
     - start render
+- **speed index** - above the fold median pixel was rendered
+- filmstrips
+- video
 
+### custom metrics
+
+- what matters most to the user in your application
+- User Timing Spec!
+- ex. time to first tweet
+- performance.getEntriesByName("hero.jpg")[0].duration - network activity end NOT render end
+- image onload handler? NOPE - still not exactly when the image displays on the page
+- offsetHeight polling - NOPE
+- inlinescript after your image tag - YES finally we get the correct result for when the image actually shows
+- but wait, if the image is really slow the inline script is wrong and the resource timing is correct
+- take the largest metric to get the right value
+- **design for performance by lara hogan book**
 
 
 
