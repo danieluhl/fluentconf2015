@@ -209,6 +209,29 @@ Why did the iojs fork happen?
 - Jenkins
 - github services CI
 
+## Isomorphic react (gasp)
+
+- David Wells
+- inbound now
+- devshop.io
+- ryan florence
+- reactweek?
+- davidwells.io/talks/isomorphic-javascript
+- @DavidWells
+- mountain west conference
+- merrick christensen demos polyglot architecture
+- isomorphic
+- single router for client and server
+- progressive enhancement (server side rendering)
+- same endpoints for posts and ajax
+- accessibility
+- rendering react on the server is very slow
+- reactify
+- react.rocks
+
+
+
+
 
 
 
