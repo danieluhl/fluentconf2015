@@ -202,6 +202,12 @@ Why did the iojs fork happen?
 - flynn
 - heroku
 - openshift v2
+- continuous feedback, health, and scaling
+- google cubernetis effort
+- davidDM
+- TravisCI
+- Jenkins
+- github services CI
 
 
 
