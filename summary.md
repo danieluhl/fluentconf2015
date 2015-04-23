@@ -4,6 +4,7 @@
 - react is here to stay
 - modules, automation, build processes, microservices are evolving fast and always getting better
 - transpile is here to stay
+- animal hats are cool
 
 
 
