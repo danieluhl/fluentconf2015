@@ -130,8 +130,83 @@
 - trig! sine curve is good
 - interpolation > 1 = follow through (elastic, bounce, more playful, don't push too far with users)
 - 12 principals of animation (by Disney)
--
+- Don't over-use follow through interpolation
+- adobe edge animate
+- adobe after affects
+- flinto
+- keynote
+- quartz
+- animations in native env are more powerful
+- framer.js
+- tween.js
+- **GSAP (Greensock)**
+- jQuery
+- css animations > giant js frameworks
+- control animations carefully in css can be tricky
+- animate.css
+- cssanimate.com
+- sass/less mixins
+- translate perf good
 
+
+## Reactive, Component-based User Interfaces
+
+- ben - front-end eng at hubspot
+- tips and patterns that work
+- @raganwald
+- every problem starts easy but gets harder over time
+- declarative vs imperative
+- exponential growth of complexity
+- angular hides the complexity it doesn't remove it
+- one direction works, two way binding does not
+- sledghammer (backbone) vs scalpal (virtual dom)
+- this is so cool I don't care if it's slow, someone will make it fast
+- getting back to a more reliable model is the story, not virtual dom
+- functional over OO
+- stateless over stateful
+- clarity over brevity
+- compositions of functions as a primary mechanism for building programs
+- component trees = functional composition
+- decorator (higher order function) > mixin
+- use mixin when you need to access internal state
+- likely use base classes in the future
+- for all other cases use higher order components
+- container component (similar to wrapper)
+- renders no UI
+- fetches and manages all data for subtree
+- no children (we need PureRenderMixin)
+- not re-rendered (no v-dom hooks?)
+- integration point for flux
+- re-usable subtree
+- complexity in software is only increasing
+- don't look at a feature checklist - use the tools that get the job done
+- @ben_anderson
+
+## introducing native script
+
+- http://mediamath.github.io/strand/
+- http://www.theuselessweb.com/
+- weird al yankavic awesome
+- all of you javascript belong to us
+- @burkeholland
+- build native mobile applications using javascript
+- simple clean and modern
+- npm install -g nativescript
+- unikitty
+- nativescript.org
+- demos > business slides
+- tns create fluent -demo
+- new native script app
+- tns platform add ios
+- tns emulate ios
+- nativescript is not phonegap there is no DOM
+- there's no html and there's no DOM
+- alert and console yes
+- js css and markup - xml
+- XML is like violence, if it doesn't solve your problem, you aren't using enough of it.
+- main.xml in the app folder
+- require and export
+- app for color picker called sip
 
 
 
