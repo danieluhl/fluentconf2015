@@ -235,7 +235,6 @@
 - prototype, debug, optimize, polish and release (repeat)
 - maps and location awareness should be used on almost every website in existence
 - the more familiar people are with your site, the more tunnel vision they get for a specific feature
--
 
 
 
