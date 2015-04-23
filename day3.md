@@ -208,6 +208,36 @@
 - require and export
 - app for color picker called sip
 
+## front-end craigslist
+
+- meeting your users needs
+- consistency
+- @jsartisan
+- code rot
+- tech debt
+- to avoid code rot, program with the programmer in mind, not the customer and not the machine
+- use comments
+- clarity > efficiency
+- weed the garden - always re-do that bad bit of code
+- red diffs - delete old code!
+- The Two Pillars of JavaScript by Eric Elliott
+- Adaptability
+- modularity
+- optimized loading (http2)
+- isomorphic
+- testing
+- project growth curve and upgrade 12-18 months out
+- slow down to speed up - build out your infrastructure and innovate your application
+- thing globally and massive
+- unicode
+- always run text through a get text function
+- high performance browser networking
+- prototype, debug, optimize, polish and release (repeat)
+-
+
+
+
+
 
 
 
